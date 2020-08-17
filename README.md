@@ -1,6 +1,6 @@
 # Wikibase Manifest
 
-This repo stores manifests for some public Wikibase instances.
+This repo stores manifests of some public Wikibase instances.
 
 | Wikibase                                   | Manifest                                   |
 | ------------------------------------------ | ------------------------------------------ |
