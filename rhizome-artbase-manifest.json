@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "mediawiki": {
+        "name": "Rhizome Artbase",
+        "root": "https://artbase.rhizome.org/wiki/",
+        "main_page": "https://artbase.rhizome.org/wiki/Main_Page",
+        "api": "https://artbase.rhizome.org/w/api.php"
+    },
+    "wikibase": {
+        "site_iri": "http://artbase.rhizome.org/entity/",
+        "maxlag": 5,
+        "properties": {
+            "instance_of": "P3",
+            "subclass_of": "P15"
+        }
+    },
+    "oauth": {
+        "registration_page": "https://artbase.rhizome.org/wiki/Special:OAuthConsumerRegistration/propose"
+    },
+    "reconciliation": {
+        "endpoint": "http://localhost:8000/${lang}/api"
+    }
+}

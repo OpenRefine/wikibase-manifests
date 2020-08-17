@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "mediawiki": {
+        "name": "OpenRefine Wikibase Test",
+        "root": "https://or-wikibase-test.wiki.opencura.com/wiki/",
+        "main_page": "https://or-wikibase-test.wiki.opencura.com/wiki/Main_Page",
+        "api": "https://or-wikibase-test.wiki.opencura.com/w/api.php"
+    },
+    "wikibase": {
+        "site_iri": "http://or-wikibase-test.wiki.opencura.com/entity/",
+        "maxlag": 5,
+        "properties": {
+            "instance_of": "P1",
+            "subclass_of": "P2"
+        }
+    },
+    "oauth": {
+        "registration_page": "https://or-wikibase-test.wiki.opencura.com/wiki/Special:OAuthConsumerRegistration/propose"
+    },
+    "reconciliation": {
+        "endpoint": "https://or-wikibase-test.reconci.link/${lang}/api"
+    }
+}
