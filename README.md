@@ -1,4 +1,4 @@
-# Wikibase Manifest
+# Wikibase Manifests
 
 This repo stores manifests of some public Wikibase instances.
 
