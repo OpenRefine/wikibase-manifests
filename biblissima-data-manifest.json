@@ -1,0 +1,20 @@
+{
+    "version": "1.0",
+    "mediawiki": {
+        "name": "Biblissima Authority Files",
+        "root": "https://data.biblissima.fr/w/",
+        "main_page": "https://data.biblissima.fr/w/Accueil",
+        "api": "https://data.biblissima.fr/w/api.php"
+    },
+    "wikibase": {
+        "site_iri": "https://data.biblissima.fr/entity/",
+        "maxlag": 5,
+        "properties": {
+            "instance_of": "P2",
+            "subclass_of": "P7"
+        }
+    },
+    "reconciliation": {
+        "endpoint": "https://data.biblissima.fr/api/reconcile/${lang}/"
+    }
+}
