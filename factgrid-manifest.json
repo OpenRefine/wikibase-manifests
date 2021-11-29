@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "mediawiki": {
+    "name": "FactGrid",
+    "root": "https://database.factgrid.de/wiki/",
+    "main_page": "https://database.factgrid.de/wiki/Main_Page",
+    "api": "https://database.factgrid.de/w/api.php"
+  },
+  "wikibase": {
+    "site_iri": "https://database.factgrid.de/entity/",
+    "maxlag": 5,
+    "properties": {
+      "instance_of": "P2",
+      "subclass_of": "P3"
+    }
+  },
+  "oauth": {
+    "registration_page": "https://database.factgrid.de/wiki/Special:OAuthConsumerRegistration/propose"
+  },
+  "reconciliation": {
+    "endpoint": "https://database.factgrid.de/reconcile/${lang}/api"
+  }
+}
