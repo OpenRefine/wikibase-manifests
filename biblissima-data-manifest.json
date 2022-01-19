@@ -15,6 +15,6 @@
         }
     },
     "reconciliation": {
-        "endpoint": "https://data.biblissima.fr/api/reconcile/${lang}/"
+        "endpoint": "https://data.biblissima.fr/reconcile/${lang}/api"
     }
 }
