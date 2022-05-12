@@ -42,5 +42,8 @@
   },
   "editgroups": {
     "url_schema": "([[:toollabs:editgroups-commons/b/OR/${batch_id}|details]])"
+  },
+    "reconciliation": {
+    "endpoint": "https://commonsreconcile.toolforge.org/${lang}/api"
   }
 }
