@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "mediawiki": {
     "name": "Wikimedia Commons",
     "root": "https://commons.wikimedia.org/wiki/",
