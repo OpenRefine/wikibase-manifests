@@ -18,6 +18,6 @@
         "registration_page": "https://artbase.rhizome.org/wiki/Special:OAuthConsumerRegistration/propose"
     },
     "reconciliation": {
-        "endpoint": "https://rhizome-artbase.reconci.link/${lang}/api"
+        "endpoint": "https://reconciliation.artbase.rhizome.org/${lang}/api"
     }
 }
