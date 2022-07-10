@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "mediawiki": {
     "name": "Wikimedia Commons",
     "root": "https://commons.wikimedia.org/wiki/",
@@ -42,5 +42,8 @@
   },
   "editgroups": {
     "url_schema": "([[:toollabs:editgroups-commons/b/OR/${batch_id}|details]])"
+  },
+    "reconciliation": {
+    "endpoint": "https://commonsreconcile.toolforge.org/${lang}/api"
   }
 }
