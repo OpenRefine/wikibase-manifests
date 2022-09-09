@@ -1,0 +1,29 @@
+{
+    "version": "2.0",
+    "mediawiki": {
+        "name": "Biblissima Authority Files",
+        "root": "https://data.biblissima.fr/w/",
+        "main_page": "https://data.biblissima.fr/w/Accueil",
+        "api": "https://data.biblissima.fr/w/api.php"
+    },
+    "wikibase": {
+        "site_iri": "https://data.biblissima.fr/entity/",
+        "maxlag": 5,
+        "tag": "openrefine-${version}",
+        "properties": {
+            "instance_of": "P2",
+            "subclass_of": "P7"
+        }
+    },
+    "entity_types": {
+        "item": {
+           "site_iri": "https://data.biblissima.fr/entity/",
+           "reconciliation_endpoint": "https://data.biblissima.fr/reconcile/${lang}/api",
+           "mediawiki_api": "https://data.biblissima.fr/w/api.php"
+        },
+        "property": {
+           "site_iri": "https://data.biblissima.fr/entity/",
+           "mediawiki_api": "https://data.biblissima.fr/w/api.php"
+        }
+    }
+}
