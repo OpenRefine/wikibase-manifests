@@ -44,7 +44,7 @@
   "editgroups": {
     "url_schema": "([[:toollabs:editgroups-commons/b/OR/${batch_id}|details]])"
   },
-  "wikibase.templates": [
+  "schema_templates": [
     {
       "name": "Information (basic data for every Wikimedia Commons file)",
       "schema": {
